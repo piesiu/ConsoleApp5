@@ -8,5 +8,19 @@ namespace ConsoleApp5
 {
     class Class1
     {
+        private string field1;
+
+        public int Property1
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public void Metoda1()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
