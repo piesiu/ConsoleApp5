@@ -8,5 +8,6 @@ namespace ConsoleApp5
 {
     class Class1
     {
+        Console.WriteLine("Help!");
     }
 }
