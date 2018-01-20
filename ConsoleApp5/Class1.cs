@@ -20,7 +20,7 @@ namespace ConsoleApp5
 
         public void Metoda1()
         {
-            throw new System.NotImplementedException();
+           Console.WriteLine("Help!");
         }
     }
 }
