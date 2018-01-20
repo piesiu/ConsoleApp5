@@ -8,6 +8,19 @@ namespace ConsoleApp5
 {
     class Class1
     {
-        Console.WriteLine("Help!");
+        private string field1;
+
+        public int Property1
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public void Metoda1()
+        {
+           Console.WriteLine("Help!");
+        }
     }
 }
